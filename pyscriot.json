@@ -1,0 +1,13 @@
+{
+  "files": {
+    "{DOMAIN}": "https://my-server.com",
+    "{PATH}": "a/path",
+    "{VERSION}": "1.2.3",
+    "{FROM}": "{DOMAIN}/{PATH}/{VERSION}",
+    "{TO}": "./my_module",
+    "{FROM}/__init__.py": "{TO}/__init__.py",
+    "{FROM}/foo.py": "{TO}/foo.py",
+    "{FROM}/bar.py": "{TO}/bar.py",
+    "{FROM}/baz.py": "{TO}/baz.py"
+  }
+}
